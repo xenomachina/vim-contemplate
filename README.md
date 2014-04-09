@@ -16,22 +16,22 @@ execute the following commands:
 ## Usage
 
 Template files are selected by filetype, *not* by extension, though most
-filetypes are themselves deterimined by extension. The template file for a
+filetypes are themselves determined by extension. The template file for a
 given filetype is named `filetype.template`. For example, the C++ filetype is
 `cpp`, so the C++ template file is called `cpp.template`, even if you use `.cxx`
 or `.cc` as your extension.
 
 Place template files in a `templates` subdirectory of your runtime path
-(`~/.vim/templates/` is the defacto location).
+(`~/.vim/templates/` is the de facto location).
 
 Once a template for a given filetype exists, it will be read into new buffers
 for that filetype automatically.
 
 ## Tips
 
-- When in doubt about whether something shoukd be included in a template, it's
+- When in doubt about whether something should be included in a template, it's
   probably a good idea to include it. It's easy to then delete whatever is
-  inappropiate for the file you're working on after the template loads.
+  inappropriate for the file you're working on after the template loads.
 
 ## License
 
